@@ -1,3 +1,6 @@
+remote_theme: pages-theme/hacker@v0.2.0
+gem "github-pages", group: :jekyll_plugins
+
 title: Noa's Arc
 description: Tech blog where I record the process of self-study - 
              hands-on practice, experiments, and lessons learned 
@@ -13,8 +16,5 @@ github:
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
-
-remote_theme: pages-theme/hacker@v0.2.0
-gem "github-pages", group: :jekyll_plugins
 
 toc: true
