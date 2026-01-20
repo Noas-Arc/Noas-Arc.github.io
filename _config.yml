@@ -31,7 +31,7 @@ plugins:
 
 # Custom variables
 owner : "Noa's Arc"
-year : : "2026"
+year : "2026"
 
 github:
   username: Noas-Arc
