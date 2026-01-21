@@ -1,12 +1,37 @@
-gem "github-pages", group: :jekyll_plugins
-
-title: Noa's Arc
-description: Tech blog where I record the process of self-study - 
+title:
+description: A tech blog where I record the process of self-study - 
              hands-on practice, experiments, and lessons learned 
-             while working through programming and cyber security. 
+             while working through programming and cybersecurity. 
              It's meant to be a personal "ark" for a fast-changing era.
 
-url: https://noas-arc.github.io/
+author: 
+  name: "Noa"
+  email: "morenoa.iya.25@gmail.com"
+  url: "url: https://noas-arc.github.io/"
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "Noa's Arc"
+year : "2026"
 
 github:
   username: Noas-Arc
@@ -16,4 +41,5 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-toc: true
+#toc: true
+#gem "github-pages", group: :jekyll_plugins
