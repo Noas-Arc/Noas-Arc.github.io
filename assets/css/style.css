@@ -100,8 +100,8 @@ li {
 
 /* Header, <header>
    header   - container
-   h1       - project name
-   h2       - project description
+   h1       - Blog name: Noa's Arc
+   h2       - Blog description
 */
 header {
   background: rgba(0, 0, 0, 0.1);
@@ -129,7 +129,7 @@ header h1 {
 }
 
 header h1:before {
-  /*content: "./ ";*/
+  content: " >> ";
   font-size: 24px;
 }
 
@@ -139,11 +139,11 @@ header h2 {
   color: #666;
 }
 
-#downloads .btn {
+/*#downloads .btn {
   display: inline-block;
   text-align: center;
   margin: 0;
-}
+}*/
 
 /* Main Content
 */
