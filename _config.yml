@@ -26,7 +26,7 @@ defaults:
 future: true
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-sitemap
 
 # Custom variables
