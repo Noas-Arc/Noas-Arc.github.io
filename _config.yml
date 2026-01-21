@@ -27,7 +27,7 @@ future: true
 plugins:
   - jekyll-seo-tag
   # - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
 
 # Custom variables
 owner : "Noa's Arc"
